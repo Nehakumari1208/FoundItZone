@@ -2,7 +2,6 @@
 
 import { useState, useMemo, useEffect } from "react";
 import { useUser } from "@clerk/nextjs";
-import Navbar from "@/components/Navbar";
 import FeedCard from "@/components/FeedsSection";
 import Link from "next/link";
 import axiosInstance from "@/lib/axios";
@@ -103,7 +102,6 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-purple-300">
-      {/* <Navbar /> */}
 
       <div className="max-w-screen-xl mx-auto px-4 py-8">
         <h1 className="text-3xl font-bold text-center mb-8 text-indigo-800">Recent Found Items</h1>
