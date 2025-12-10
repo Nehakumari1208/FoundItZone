@@ -4,9 +4,4 @@ const nextConfig: NextConfig = {
     domains: ["res.cloudinary.com"],
   },
 };
-
-// module.exports = withClerkMiddleware({
-//   // your config
-// });
-
 export default nextConfig;
