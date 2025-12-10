@@ -73,7 +73,7 @@ const FoundItemsPage = () => {
   }, [filteredPosts, currentPage]);
 
   return (
-    <div className="min--h-screen flex flex-col bg-purple-300 text-white px-4 py-8">
+    <div className="min-h-screen flex flex-col bg-purple-300 text-white px-4 py-8">
       <div className="max-w-4xl mx-auto bg-zinc-950 p-6 rounded-xl shadow-lg overflow-auto">
         <h1 className="text-3xl font-bold mb-6 text-center">Your Found Items</h1>
 
